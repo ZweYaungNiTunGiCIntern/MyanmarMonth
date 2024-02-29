@@ -34,8 +34,8 @@
   
   .floating-images img {
     margin: 10px;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     animation: floatingAnimation 3s ease-in-out infinite;
   }

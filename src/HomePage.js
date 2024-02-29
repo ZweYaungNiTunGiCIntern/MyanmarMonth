@@ -22,7 +22,7 @@ const HomePage = () => {
 
   return (
     
-        <div className="container-fluid px-5 py-5">
+        <div className="container mx-5 my-5 px-5 py-5">
           <div className="row">
             <div className="col-md-6 mb-5">
                 <div className="mx-3 my-3 px-3 py-3">
@@ -45,7 +45,7 @@ const HomePage = () => {
               <div className=" mx-3 my-3 px-3 py-3">
                 <Carousel fade indicators={false} touch>
                   <Carousel.Item>
-                    <img className="d-block w-100 h-100" src={istock5} alt="First slide" />
+                    <img className="d-block w-100 h-100" src={istock5} alt="First slide" style={{ width: '100%', height: 'auto' }}/>
                   </Carousel.Item>
                   <Carousel.Item>
                     <img className="d-block w-100 h-100" src={istock6} alt="Second slide" />

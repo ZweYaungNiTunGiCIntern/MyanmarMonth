@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <Router>
-      <div className="container-fluid App">
+      <div className="App">
         <NavBar />
         <div className="content">
           <Routes>
@@ -23,7 +23,7 @@ function App() {
           </Routes>
         </div>
         <Footer />
-      </div>
+        </div>
     </Router>
   );
 }

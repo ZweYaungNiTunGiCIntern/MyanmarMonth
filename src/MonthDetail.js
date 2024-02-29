@@ -20,8 +20,8 @@ const MonthDetail = () => {
         {isPending && <div>Loading..</div>}
         {error && <div>{error}</div>}
         {month && (
-           <div className="container px-md-6 py-md-6 px-3 py-3 mx-auto my-5" data-aos="fade-up">
-            <div className="mb-5">
+           <div className="container px-5 py-5 mx-5 my-5" data-aos="fade-up">
+            <div className="mx-3 my-5">
                 <h1>{month.MonthMm} - {month.MonthEn}</h1>
             </div>
            
