@@ -4,10 +4,10 @@ export default function NavBar() {
   return (
     <div className="container">
       <nav className="navbar">
-      <h1>Burmese Birds</h1>
+      <h3>Myanmar Tradition</h3>
       <div className="links">
         <Link to="/">Home</Link>
-        <Link to="/home">Birds</Link>
+        <Link to="/month">Month</Link>
         {/* <Link to="/">Home</Link>
         <Link to="/create">New Blog</Link> */}
       </div>

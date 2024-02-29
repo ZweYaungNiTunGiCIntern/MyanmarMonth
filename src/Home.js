@@ -6,13 +6,13 @@ const Home = () => {
     data: month,
     error,
     isPending,
-  } = useFetch("http://localhost:8000/month");
+  } = useFetch("https://json-for-bird.vercel.app/month");
 
   return (
     <div className="home">
       {error && <div>{error}</div>}
       {isPending && <div>Loading...</div>}
-      {month && <MonthList months={month} title="မြန်မာနိုင်ငံတွင် တွေ့ရသော ငှက်များ" />}
+      {month && <MonthList months={month} title="မြန်မာလများ" />}
     </div>
   );
 };

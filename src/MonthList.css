@@ -1,0 +1,54 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: #0056b3;
+  }
+  
+  .carousel-item img {
+    border-radius: 10px;
+  }
+  
+  .carousel-item.active {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .floating-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .floating-images img {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: floatingAnimation 3s ease-in-out infinite;
+  }
+  
+  @keyframes floatingAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  

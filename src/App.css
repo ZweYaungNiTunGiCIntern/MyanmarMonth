@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #D3D3D3;
 }
 
 .App-logo {
@@ -35,4 +36,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+.floating-images img {
+  margin: 10px;
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+  border-radius: 50%;
+  animation: floatingAnimation 3s ease-in-out infinite;
 }
