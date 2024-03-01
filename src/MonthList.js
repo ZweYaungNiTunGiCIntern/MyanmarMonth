@@ -2,14 +2,15 @@ import React, { useState, useEffect } from 'react';
 import MonthCard from './MonthCard';
 import { Link } from "react-router-dom";
 import NotFound from "./NotFound.js";
-import Hello from "./hello.jpg"
+
+import shwe1 from './shwe1.jpg'
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './MonthList.css'; // Custom CSS file for styling
 import Mandalay from './Mandalay.jpg'
-import UPein from './UPein.jpg'
+
 const MonthList = ({ months, title }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const pageSize = 4;
@@ -36,7 +37,7 @@ const MonthList = ({ months, title }) => {
               <img className="d-block w-100 border border-dark" src={Mandalay} alt="First slide" />
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block w-100 border border-dark" src={UPein} alt="Second slide" />
+              <img className="d-block w-100 border border-dark" src={shwe1} alt="Second slide" />
             </Carousel.Item>
           </Carousel>
         </div>

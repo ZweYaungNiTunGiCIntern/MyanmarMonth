@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 
 import budhist from './budhist.jpg';
-import culture from './culture.jpg';
+
 import culture1 from './culture1.jpg';
 import istock3 from './istock3.jpg'
 import istock5 from './istock5.jpg'

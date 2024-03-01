@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const BirdCard = ({ month }) => {
   return (
-    <div className="card shadow" style={{ width: '100%', height: '400px' }}>
+    <div className="card shadow" style={{ width: '100%', height: '400px',backgroundColor: '#EDEDED' }}>
     <Link to={`/month/${month.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
     
       <img src={month.ImagePath} alt={month.BirdMyanmarName} className="card-img-top bird-image" style={{ width: '100%', height: '250px', objectFit: 'cover', transition: 'transform 0.3s ease-in-out' }} />
