@@ -17,10 +17,12 @@ code {
 
 
 .navbar {
-  text-align: center;
+  padding: 20px;
+  display: flex;
   align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
-  background-color: #A9A9A9;
 }
 
 .navbar h1 {
@@ -30,7 +32,6 @@ code {
 
 .links {
   display: flex;
-  margin-right: 10px;
 }
 
 .links a {

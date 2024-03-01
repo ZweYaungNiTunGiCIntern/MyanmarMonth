@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div className="home">
       {error && <div>{error}</div>}
-      {isPending && <div>Loading...</div>}
+      {isPending && <div style={{ height: '100vh' }}>Loading...</div>}
       {month && <MonthList months={month} title="မြန်မာလများ" />}
     </div>
   );

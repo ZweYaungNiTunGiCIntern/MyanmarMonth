@@ -8,7 +8,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './MonthList.css'; // Custom CSS file for styling
-import Myanmar from './Myanmarculture.jpg'
+import Mandalay from './Mandalay.jpg'
+import UPein from './UPein.jpg'
 const MonthList = ({ months, title }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const pageSize = 4;
@@ -32,10 +33,10 @@ const MonthList = ({ months, title }) => {
         <div className="col-md-6 rounded my-5 py-5 aos-init aos-animate" data-aos="fade-up">
           <Carousel>
             <Carousel.Item>
-              <img className="d-block w-100 border border-dark" src={Hello} alt="First slide" />
+              <img className="d-block w-100 border border-dark" src={Mandalay} alt="First slide" />
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block w-100 border border-dark" src={Hello} alt="Second slide" />
+              <img className="d-block w-100 border border-dark" src={UPein} alt="Second slide" />
             </Carousel.Item>
           </Carousel>
         </div>
