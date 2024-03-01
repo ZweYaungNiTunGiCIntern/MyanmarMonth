@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const BirdCard = ({ month }) => {
+const MonthCard = ({ month }) => {
   return (
     <div className="card shadow" style={{ width: '100%', height: '400px',backgroundColor: '#EDEDED' }}>
     <Link to={`/month/${month.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
@@ -21,4 +21,4 @@ const BirdCard = ({ month }) => {
   );
 };
 
-export default BirdCard;
+export default MonthCard;
